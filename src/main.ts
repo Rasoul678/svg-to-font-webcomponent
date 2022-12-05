@@ -1,6 +1,6 @@
-import { CWCO, WebComponent } from "cwco";
+import { CWCO, ContextProviderComponent } from "cwco";
 
-class SFIcon extends WebComponent {
+class SFIcon extends ContextProviderComponent {
   static observedAttributes: string[] = ["name", "size", "color"];
 
   name = "";
@@ -11,12 +11,13 @@ class SFIcon extends WebComponent {
     return `<link rel="stylesheet" href="./src/sf-icon.css" />`;
   }
 
-  get iconName() {
-    return this.name || (this.textContent || "").trim();
-  }
+  //! By using of ContextProvider, textContent is always empty
+  // get iconName() {
+  //   return this.name || (this.textContent || "").trim();
+  // }
 
   get template() {
-    return `<i class="sfi-${this.iconName}" attr.style.font-size="${this.fontSize}, size" attr.style.color="${this.accent}, color"></i>`;
+    return `<i class="sfi-${this.name}" attr.style.font-size="${this.fontSize}, size" attr.style.color="${this.accent}, color"></i>`;
   }
 
   get fontSize() {

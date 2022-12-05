@@ -1,11 +1,11 @@
 @font-face {
   font-family: "sfi";
-  src: url('./fonts/sfi.eot?t=1670226770960'); /* IE9*/
-  src: url('./fonts/sfi.eot?t=1670226770960#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("./fonts/sfi.woff2?t=1670226770960") format("woff2"),
-  url("./fonts/sfi.woff?t=1670226770960") format("woff"),
-  url('./fonts/sfi.ttf?t=1670226770960') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('./fonts/sfi.svg?t=1670226770960#sfi') format('svg'); /* iOS 4.1- */
+  src: url('./fonts/sfi.eot?t=1670227197808'); /* IE9*/
+  src: url('./fonts/sfi.eot?t=1670227197808#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("./fonts/sfi.woff2?t=1670227197808") format("woff2"),
+  url("./fonts/sfi.woff?t=1670227197808") format("woff"),
+  url('./fonts/sfi.ttf?t=1670227197808') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/sfi.svg?t=1670227197808#sfi') format('svg'); /* iOS 4.1- */
 }
 
 [class^="sfi-"], [class*=" sfi-"] {

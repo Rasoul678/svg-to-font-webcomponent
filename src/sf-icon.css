@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "sfi";
+  src: url('./fonts/sfi.eot?t=1670226770960'); /* IE9*/
+  src: url('./fonts/sfi.eot?t=1670226770960#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("./fonts/sfi.woff2?t=1670226770960") format("woff2"),
+  url("./fonts/sfi.woff?t=1670226770960") format("woff"),
+  url('./fonts/sfi.ttf?t=1670226770960') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/sfi.svg?t=1670226770960#sfi') format('svg'); /* iOS 4.1- */
+}
+
+[class^="sfi-"], [class*=" sfi-"] {
+  font-family: 'sfi' !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.sfi-fi-rr-a:before { content: "\ea01"; }
+.sfi-fi-rr-ad:before { content: "\ea02"; }
+.sfi-fi-rr-add-document:before { content: "\ea03"; }
+.sfi-fi-rr-add-folder:before { content: "\ea04"; }
+.sfi-fi-rr-add:before { content: "\ea05"; }
+.sfi-fi-rr-address-book:before { content: "\ea06"; }
+.sfi-fi-rr-air-conditioner:before { content: "\ea07"; }
+.sfi-fi-rr-air-freshener:before { content: "\ea08"; }
+.sfi-fi-rr-alarm-clock:before { content: "\ea09"; }
